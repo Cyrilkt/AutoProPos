@@ -645,8 +645,8 @@ class TrainTask(object):
                                                        phase='ema_train')  
            results_test = {'NMI': results_concat_test['ema_train_nmi'],  'ARI': results_concat_test['ema_train_ari'],  'ACC':result_best_fitted_acc_test[0], 'K': self.num_cluster}
            
-        if torch.distributed.get_rank() == 0:
-           print('Evaluation test set :',results_test)
+           if torch.distributed.get_rank() == 0:
+             print('Evaluation test set :',results_test)
         
         
     def fit(self):
@@ -699,7 +699,7 @@ class TrainTask(object):
             if self.cur_epoch > opt.epochs :
               if torch.distributed.get_rank() == 0 :
                 if opt.whole_dataset:
-                  print('Evaluation Best Model WHOLE DATASET :',self.best_results)
+                  print('Evaluation Best Model TRAIN SET :',self.best_results)
                 else:
                   print('Evaluation Best Model TEST SET :',self.best_results_test)
               break
