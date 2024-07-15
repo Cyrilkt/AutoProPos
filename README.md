@@ -54,4 +54,4 @@ torchrun --master_port 17673 --nproc_per_node=4 main.py config/mnist.yml
 **Note:**
 
 * Replace `mnist.yml` with the configuration file for your desired dataset (located in the `config` or `config_best_models` directories).
-* Adjust the `CUDA_VISIBLE_DEVICES` environment variable and `--nproc_per_node` argument according to your GPU configuration (if applicable).
+* Adjust the `CUDA_VISIBLE_DEVICES` environment variable and `--nproc_per_node` argument according to your GPU configuration.
