@@ -7,7 +7,7 @@ This project implements AutoProPos, an adaptive clustering algorithm based on Pr
 To install AutoProPos:
 
 
-1. **Clone **  or  **Download** the code from the repository .
+1. **Clone** or **Download** the code from the repository .
 2. **Install dependencies:** Install the libraries listed in the `requirements.txt` file using pip:
    ```bash
    pip -r install requirements.txt
