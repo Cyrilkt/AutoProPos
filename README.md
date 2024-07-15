@@ -1,6 +1,6 @@
 ## AutoProPos: An Extension of Prototype Scattering and Positive Sampling Clustering for an Unknown Number of Clusters
 
-This project implements AutoProPos, an adaptive clustering algorithm based on Prototype Scattering and Positive Sampling. AutoProPos project is  builds upon the code from the Propos repository. We have introduced modifications and extensions to incorporate the adaptive clustering capabilities of AutoProPos impoving the original code's performance and functionality.
+This project implements AutoProPos, an adaptive clustering algorithm based on Prototype Scattering and Positive Sampling. AutoProPos project is  builds upon the code from the Propos repository([Hzzone's ProPos](https://github.com/Hzzone/ProPos?tab=readme-ov-file)). We have introduced modifications and extensions to incorporate the adaptive clustering capabilities of AutoProPos impoving the original code's performance and functionality.
 
 **2. Installation**
 
@@ -50,6 +50,7 @@ To train AutoProPos models on a dataset specified in our paper, run the followin
 export CUDA_VISIBLE_DEVICES=0,1,2,3  # Set comma-separated GPU device IDs (if applicable)
 torchrun --master_port 17673 --nproc_per_node=4 main.py config/mnist.yml
 ```
+
 
 **Note:**
 
