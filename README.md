@@ -1,6 +1,6 @@
 ## AutoProPos: An Extension of Prototype Scattering and Positive Sampling Clustering for an Unknown Number of Clusters
 
-This project implements AutoProPos, an adaptive clustering algorithm based on Prototype Scattering and Positive Sampling. AutoProPos project is  builds upon the code from the ([ProPos](https://github.com/Hzzone/ProPos?tab=readme-ov-file)) repository. We have introduced modifications and extensions to incorporate the adaptive clustering capabilities of AutoProPos impoving the original code's performance and functionality.
+This project implements AutoProPos, an adaptive clustering algorithm based on Prototype Scattering and Positive Sampling. AutoProPos project is  builds upon the code from the [ProPos](https://github.com/Hzzone/ProPos?tab=readme-ov-file) repository. We have introduced modifications and extensions to incorporate the our adaptive clustering capabilities of AutoProPos impoving the original code's performance and functionality.
 
 **2. Installation**
 
